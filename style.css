@@ -1,0 +1,90 @@
+
+body {
+  background: linear-gradient(180deg, #ae77e4, #fdff83, #690a99dc, #00b083);
+  background-size: 800% 800%;
+  
+  -webkit-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 61%}
+  50%{background-position:100% 40%}
+  100%{background-position:0% 61%}
+}
+
+@keyframes AnimationName {
+  0%{background-position:0% 61%}
+  50%{background-position:100% 40%}
+  100%{background-position:0% 61%}
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  primary { width:67%; }
+  secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  primary { width:100%; }
+  secondary { width:100%; margin:0; border:none; }
+}
+
+@media (min-device-width:600px) {
+  img[data-src-600px] {
+      content: attr(data-src-600px, url);
+  }
+}
+
+@media (min-device-width:800px) {
+  img[data-src-800px] {
+      content: attr(data-src-800px, url);
+  }
+}
+
+ h4{
+  border-top: 1px solid #3e075a;
+  color: #430b5f;
+  padding-top: 15px
+}
+.container {  
+  margin-top: 35px;
+margin-left: auto;
+margin-right: auto;
+  width: 430px;
+  text-align: center;
+}
+
+img{
+  max-width: 80%;
+  border-radius: 20%;
+}
+
+section{
+  /* filter: blur(6px);
+  -webkit-filter: blur(6px); */
+  background-color: rgba(218, 149, 242, 0.3);
+  border-radius: 5px;
+	padding:12px;
+  border-radius:20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.font{
+  font-family: "Palatino", Times, serif;
+  font-weight: bold;
+  font-size:large;
+}
+
+.media{
+  margin: auto;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
