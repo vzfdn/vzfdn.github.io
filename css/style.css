@@ -64,11 +64,11 @@ section {
 }
 
 .container {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 450px;
+    width: 400px;
     text-align: center;
 }
 
