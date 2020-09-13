@@ -60,6 +60,7 @@ section {
     border-radius: 60px;
     padding-right: 15px;
     padding-left: 15px;
+    box-shadow: 1px 1px 10px #000000;
 }
 
 .container {
