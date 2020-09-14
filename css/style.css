@@ -39,12 +39,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #CB4335;
+    background-color: #e6cf7e;
     border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #CD6155;
+    background-color: #f3d051;
 }
 
 h1 {
