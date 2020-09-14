@@ -28,20 +28,25 @@ body {
         background-position: 0% 61%
     }
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     width: 7px;
 }
-::-webkit-scrollbar-track{
+
+::-webkit-scrollbar-track {
     background-color: #F2F3F4;
     border-radius: 20px;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     background-color: #CB4335;
     border-radius: 20px;
 }
-::-webkit-scrollbar-thumb:hover{
-    background-color: #CD6155;    
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #CD6155;
 }
+
 h1 {
     font-family: "Palatino", Times, serif;
     font-weight: bold;
@@ -73,7 +78,7 @@ section {
     border-radius: 60px;
     padding-right: 15px;
     padding-left: 15px;
-    box-shadow: 1px 1px 10px #000000;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .container {
@@ -81,7 +86,7 @@ section {
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 450px;
+    max-width: 440px;
     text-align: center;
 }
 
@@ -117,10 +122,10 @@ section {
     box-shadow: 1px 2px 10px #412f1e;
 }
 
-@media (max-width: 420px) {
+@media all and (max-width: 420px) {
     .container {
-        margin-top: 30px;
-        margin-bottom: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
         margin-left: auto;
         margin-right: auto;
         width: 320px;
