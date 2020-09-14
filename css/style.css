@@ -28,7 +28,20 @@ body {
         background-position: 0% 61%
     }
 }
-
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-track{
+    background-color: #F2F3F4;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #CB4335;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #CD6155;    
+}
 h1 {
     font-family: "Palatino", Times, serif;
     font-weight: bold;
@@ -97,6 +110,7 @@ section {
 
 .shadow {
     box-shadow: 5px 10px 20px #412f1e;
+    border: 1px solid #CCD1D1;
 }
 
 .btnShadow {
